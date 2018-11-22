@@ -28,6 +28,8 @@ client.user.setGame(`pro wolf system`,"http://twitch.tv/S-F")
   console.log('')
 });
 
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+
 
 
 
@@ -471,38 +473,3 @@ client.on('message', async message => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
